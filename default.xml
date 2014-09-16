@@ -47,7 +47,6 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="hardware/drm_gralloc" name="platform/hardware/drm_gralloc" remote="x86" revision="kitkat-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="kitkat-x86" />
-  <project path="hardware/intel/hwcomposer" name="platform/hardware/intel/hwcomposer" remote="x86" revision="kitkat-x86" />
   <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="kitkat-x86" />
   <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="kitkat-x86" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="x86" revision="kitkat-x86" />
@@ -61,6 +60,7 @@
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="x86" revision="kitkat-x86" />
 <!--  <project path="vendor/intel" name="platform/vendor/intel" remote="x86" revision="kitkat-x86" />
+  <project path="hardware/intel/hwcomposer" name="platform/hardware/intel/hwcomposer" remote="x86" revision="kitkat-x86" />
 -->
 
   <!-- from original Android repositories
