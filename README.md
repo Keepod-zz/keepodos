@@ -4,7 +4,7 @@ keepodos
 Getting Started
 ---------------
 
-To get started with Keepod OS, you'll need to install [Git and Repo] (http://source.android.com/download/using-repo) first.
+To get started with Keepod OS, you'll need to install [Git and Repo] (https://source.android.com/source/downloading.html) first.
 
 To initialize your local repository using the Keepod OS code tree:
 

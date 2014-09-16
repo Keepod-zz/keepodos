@@ -14,12 +14,12 @@
 
 
   <!-- from Keepod github repositories -->
-  <project path="build" name="platform/build" groups="pdk" remote="github" revision="kitkat-x86" >
+  <project path="keepodos_build" name="platform/build" groups="pdk" remote="github" revision="kitkat-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="github" revision="kitkat-x86" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="github" revision="kitkat-x86" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="github" revision="kitkat-x86" />
+  <project path="bootable_newinstaller" name="platform/bootable/newinstaller" remote="github" revision="kitkat-x86" />
+  <project path="frameworks_base" name="platform/frameworks/base" remote="github" revision="kitkat-x86" />
+  <project path="frameworks_native" name="platform/frameworks/native" groups="pdk" remote="github" revision="kitkat-x86" />
 
   <!-- from x86 port repositories -->
   <project path="kernel" name="kernel/common" remote="x86" revision="android-3.10" />
