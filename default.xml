@@ -18,7 +18,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable_newinstaller" name="platform/bootable/newinstaller" remote="github" revision="kitkat-x86" />
-  <project path="frameworks_base" name="platform/frameworks/base" remote="github" revision="kitkat-x86" />
+  <project path="frameworks/base" name="frameworks_base" remote="github" revision="kitkat-x86" />
   <project path="frameworks_native" name="platform/frameworks/native" groups="pdk" remote="github" revision="kitkat-x86" />
 
   <!-- from x86 port repositories -->
