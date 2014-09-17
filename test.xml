@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
+  <remote  name="x86"
+           fetch="http://git.android-x86.org" />
+  <remote  name="github"
+           fetch="https://github.com/Keepod" />
+  <default revision="refs/tags/android-4.4.2_r1"
+           remote="aosp"
+           sync-c="true"
+           sync-j="1" />
+
+
+  <!-- from Keepod github repositories -->
+  <project path="build" name="platform_build" groups="pdk" remote="github" revision="kitkat-x86" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="bootable/newinstaller" name="platform_bootable_newinstaller" remote="github" revision="kitkat-x86" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="kitkat-x86" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="github" revision="kitkat-x86" />
+
+  <!-- from x86 port repositories -->
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="x86" revision="kitkat-x86" />
+  <project path="device/ibm/thinkpad" name="device/ibm/thinkpad" remote="x86" revision="kitkat-x86" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="kitkat-x86" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="kitkat-x86" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" remote="x86" revision="kitkat-x86" />
+  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="kitkat-x86" />
+  <project path="external/drm" name="platform/external/drm" remote="x86" revision="kitkat-x86" />
+  <project path="external/eject" name="platform/external/eject" remote="x86" revision="kitkat-x86" />
+  <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="kitkat-x86" />
+  <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="kitkat-x86" />
+  <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="kitkat-x86" />
+  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="kitkat-x86" />
+
+  <!-- from original Android repositories -->
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+
+</manifest>
