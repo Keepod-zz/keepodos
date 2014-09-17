@@ -59,11 +59,10 @@
   <project path="system/core" name="platform/system/core" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" remote="x86" revision="kitkat-x86" />
-<!--  <project path="vendor/intel" name="platform/vendor/intel" remote="x86" revision="kitkat-x86" />
+  <project path="vendor/intel" name="platform/vendor/intel" remote="x86" revision="kitkat-x86" />
   <project path="hardware/intel/hwcomposer" name="platform/hardware/intel/hwcomposer" remote="x86" revision="kitkat-x86" />
--->
 
-  <!-- from original Android repositories
+  <!-- from original Android repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="notdefault" />
@@ -464,7 +463,5 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-
--->
 
 </manifest>
